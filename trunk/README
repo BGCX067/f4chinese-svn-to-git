@@ -1,0 +1,31 @@
+f4chinese
+=========
+
+A vim plugin for vim first_char_search in chinese.
+
+Author: yeshengzou@gmail.com<YeshengZou>
+
+Other information in f4chinese.vim
+
+INSTALL
+-------
+
+1. Copy f4chinese.vim f4chinese.py f4chinese_wubi.txt to your $VIM/plugin/ .
+2. Make sure the `s:table` in f4chinese.vim is right.
+3. Config your own map in f4chinese.vim if you like.
+4. For windows user, may be you need to change the ENCODING in f4chinese.py
+
+the f4chinese.py require Python 2.6.
+
+USAGE
+-----
+
+In normal mode, press <M-f>, then type the first_char, after <Enter>
+the cursor will get the position.
+
+<M-;> will search the next one in this line.
+
+TODO
+----
+
+* Implement f4chinese.py in C.
